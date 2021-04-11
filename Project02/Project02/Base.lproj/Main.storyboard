@@ -17,27 +17,45 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MwR-cd-eew">
-                                <rect key="frame" x="107" y="100" width="200" height="100"/>
+                                <rect key="frame" x="107" y="244" width="200" height="100"/>
                                 <state key="normal" image="us"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cjt-pG-RJJ">
-                                <rect key="frame" x="107" y="408" width="200" height="100"/>
-                                <state key="normal" image="us"/>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CfN-XR-Hfl"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mre-dp-2eQ">
-                                <rect key="frame" x="107" y="241" width="200" height="100"/>
+                                <rect key="frame" x="107" y="385" width="200" height="100"/>
                                 <state key="normal" image="us"/>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oN2-sS-av7"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total Score " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rzz-Rn-IXQ">
+                                <rect key="frame" x="250" y="117" width="90" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cjt-pG-RJJ">
+                                <rect key="frame" x="107" y="523" width="200" height="100"/>
+                                <state key="normal" image="us"/>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sPM-dE-0QV"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="MwR-cd-eew" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="12" id="Ht1-Lo-5G1"/>
-                            <constraint firstItem="mre-dp-2eQ" firstAttribute="top" secondItem="MwR-cd-eew" secondAttribute="bottom" constant="41" id="ZSe-4q-1gG"/>
-                            <constraint firstItem="mre-dp-2eQ" firstAttribute="centerX" secondItem="MwR-cd-eew" secondAttribute="centerX" id="a7i-hY-lBd"/>
-                            <constraint firstItem="MwR-cd-eew" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="pzb-bi-D0v"/>
-                            <constraint firstItem="Cjt-pG-RJJ" firstAttribute="top" secondItem="mre-dp-2eQ" secondAttribute="bottom" constant="67" id="rGV-wE-dVq"/>
-                            <constraint firstItem="Cjt-pG-RJJ" firstAttribute="centerX" secondItem="mre-dp-2eQ" secondAttribute="centerX" id="rJk-5a-cab"/>
+                            <constraint firstItem="Cjt-pG-RJJ" firstAttribute="top" secondItem="mre-dp-2eQ" secondAttribute="bottom" constant="38" id="85e-K3-C1x"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Rzz-Rn-IXQ" secondAttribute="trailing" constant="74" id="BL4-Nl-4qg"/>
+                            <constraint firstItem="MwR-cd-eew" firstAttribute="leading" secondItem="mre-dp-2eQ" secondAttribute="leading" id="Jqf-8x-70y"/>
+                            <constraint firstItem="Rzz-Rn-IXQ" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Z5z-gb-v3L"/>
+                            <constraint firstItem="mre-dp-2eQ" firstAttribute="leading" secondItem="Cjt-pG-RJJ" secondAttribute="leading" id="avg-PD-QMr"/>
+                            <constraint firstItem="Rzz-Rn-IXQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="29" id="fsr-aJ-feT"/>
+                            <constraint firstItem="MwR-cd-eew" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="j1y-ed-UdL"/>
+                            <constraint firstItem="mre-dp-2eQ" firstAttribute="top" secondItem="MwR-cd-eew" secondAttribute="bottom" constant="41" id="lmf-pU-BkV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Cjt-pG-RJJ" secondAttribute="bottom" constant="239" id="mM9-Ka-iAF"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="SNs-du-1pb"/>
@@ -45,6 +63,7 @@
                         <outlet property="Button01" destination="MwR-cd-eew" id="bhv-ex-hWG"/>
                         <outlet property="Button02" destination="mre-dp-2eQ" id="GcD-6g-6cf"/>
                         <outlet property="Button03" destination="Cjt-pG-RJJ" id="mxD-if-Q4k"/>
+                        <outlet property="scoreLabel" destination="Rzz-Rn-IXQ" id="Sxu-CW-4NX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
