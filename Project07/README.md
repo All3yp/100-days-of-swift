@@ -14,30 +14,24 @@ Includes solutions to the [challenges](https://www.hackingwithswift.com/read/7/6
 
 - UISearchController
 
-## Screenshoots 
-
-
+## Screenshoots
 
 <table style="width: 500px;">
   <tbody>
     <tr style="background: #ddd; font-weight: bolder; font-size: 18px">
-      <td style="width: 350px;">
-          <div>&nbsp; &nbsp; Projects / Topics</div>
+      <td style="width: 350px; text-align: center;">
+        Projects / Topics
       </td>
-      <td style="width: 800px;">
-          <div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Screenshots</div>
+      <td style="width: 800px; text-align: center;">
+        Screenshots
       </td>
     </tr>
     <tr>
-      <td style="width: 150px;">&nbsp;
-        <div>
-          <div>Project 07 - Whitehouse Petitions (with challenges) UITabBarController, JSON Codable, Data and
-            UISearchBarController</div>
-        </div>
+      <td style="width: 150px;">
+        Project 07 - Whitehouse Petitions (with challenges) UITabBarController, JSON Codable, Data and UISearchBarController
       </td>
-      <td style="width: 250px;">
-        <div>
-          <div>&nbsp;<img src="screenshots/print_P07.png" width="350px">
+      <td style="width: 250px; padding: 25px;">
+        <img src="screenshots/gif2_P07.gif" width="350px">
       </td>
     </tr>
   </tbody>

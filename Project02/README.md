@@ -1,11 +1,15 @@
-# Project 03 - Social Media
+# Project 02 - Guess the Flag
 
-Learning challenges 100 days of swift [here](https://www.hackingwithswift.com/read/3/3/wrap-up).
+https://www.hackingwithswift.com/100/19
 
-## Topics covered
+Includes solutions to the [challenges](https://www.hackingwithswift.com/read/2/6/wrap-up).
 
-- UIBarButtonItem
-- UIActivityController
+
+## Topics learning
+
+- UIButton
+- CALayer
+- IBAction
 
 ## Screenshots
 
@@ -21,10 +25,10 @@ Learning challenges 100 days of swift [here](https://www.hackingwithswift.com/re
     </tr>
     <tr>
       <td style="width: 150px;">
-        Project 3 - Social Media (with challenges) (base: project 1) UIBarButtonItem, UIActivityController
+        Project 2 - Guess the Flag (with challenges) UIButton, CALayer, IBAction.
       </td>
       <td style="width: 250px; padding: 25px;">
-        <img src="screenshots/print_P03.png" width="350px">
+        <img src="screenshots/print_P02.png" width="350px">
       </td>
     </tr>
   </tbody>

@@ -1,11 +1,15 @@
-# Project 03 - Social Media
+# Project 4 - Easy Browser
 
-Learning challenges 100 days of swift [here](https://www.hackingwithswift.com/read/3/3/wrap-up).
+https://www.hackingwithswift.com/100/24
+
+Includes solutions to the [challenges](https://www.hackingwithswift.com/read/4/6/wrap-up).
 
 ## Topics covered
 
-- UIBarButtonItem
-- UIActivityController
+- WKWebView
+- Action Sheets
+- UIToolbar
+- UIProgressView
 
 ## Screenshots
 
@@ -21,10 +25,10 @@ Learning challenges 100 days of swift [here](https://www.hackingwithswift.com/re
     </tr>
     <tr>
       <td style="width: 150px;">
-        Project 3 - Social Media (with challenges) (base: project 1) UIBarButtonItem, UIActivityController
+        Project 4 - Easy Browser
       </td>
       <td style="width: 250px; padding: 25px;">
-        <img src="screenshots/print_P03.png" width="350px">
+        <img src="screenshots/print_P04.png" width="350px">
       </td>
     </tr>
   </tbody>
