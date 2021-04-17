@@ -9,12 +9,20 @@ import UIKit
 
 class ViewController: UITableViewController {
 
+    let search = UISearchController(searchResultsController: nil)
+
     var petitions = [Petition]()
     var filteredPetitions = [Petition]()
     var filterKeyword: String = ""
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        search.searchBar.delegate = self
+        search.searchResultsUpdater = self
+        search.obscuresBackgroundDuringPresentation = false
+        search.searchBar.placeholder = "Search whitehouse petitions here"
+        navigationItem.searchController = search
 
         let urlString: String  //"https://www.hackingwithswift.com/samples/petitions-1.json"
 
@@ -78,10 +86,21 @@ class ViewController: UITableViewController {
             return false
         }
     }
+
     func showError() {
         let ac = UIAlertController(title: "Loading Error", message: "There was a problem loading the feed; please check your connection and try again.", preferredStyle: .alert)
         ac.addAction(UIAlertAction(title: "OK", style: .default))
         present(ac, animated: true)
+    }
+
+    func filter(for searchText: String) {
+        filteredPetitions = petitions.filter { petition in
+            return petition.title.lowercased().contains(searchText.lowercased())
+        }
+        if filteredPetitions.isEmpty {
+            filteredPetitions = petitions
+        }
+        tableView.reloadData()
     }
 
     func parse(json: Data) {
@@ -95,7 +114,7 @@ class ViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        filteredPetitions.count
+        return filteredPetitions.count
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -110,5 +129,17 @@ class ViewController: UITableViewController {
         let vc = DetailViewController()
         vc.detailItem = filteredPetitions[indexPath.row]
         navigationController?.pushViewController(vc, animated: true)
+    }
+}
+
+extension ViewController: UISearchResultsUpdating, UISearchBarDelegate {
+
+    func updateSearchResults(for searchController: UISearchController) {
+        filter(for: searchController.searchBar.text ?? "")
+    }
+
+    func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
+        self.view.endEditing(true)
+        tableView.reloadData()
     }
 }
