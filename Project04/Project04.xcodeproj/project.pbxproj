@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		18808AFD26292A04008A23DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18808AFC26292A04008A23DD /* AppDelegate.swift */; };
 		18808AFF26292A04008A23DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18808AFE26292A04008A23DD /* SceneDelegate.swift */; };
-		18808B0126292A04008A23DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18808B0026292A04008A23DD /* ViewController.swift */; };
+		18808B0126292A04008A23DD /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18808B0026292A04008A23DD /* WebViewController.swift */; };
 		18808B0426292A04008A23DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18808B0226292A04008A23DD /* Main.storyboard */; };
 		18808B0626292A04008A23DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18808B0526292A04008A23DD /* Assets.xcassets */; };
 		18808B0926292A04008A23DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18808B0726292A04008A23DD /* LaunchScreen.storyboard */; };
+		18A2FDE8262BA8C100115392 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A2FDE7262BA8C100115392 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		18808AF926292A04008A23DD /* Project04.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project04.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18808AFC26292A04008A23DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18808AFE26292A04008A23DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		18808B0026292A04008A23DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18808B0026292A04008A23DD /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		18808B0326292A04008A23DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18808B0526292A04008A23DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18808B0826292A04008A23DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18808B0A26292A04008A23DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A2FDE7262BA8C100115392 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				18808AFC26292A04008A23DD /* AppDelegate.swift */,
 				18808AFE26292A04008A23DD /* SceneDelegate.swift */,
-				18808B0026292A04008A23DD /* ViewController.swift */,
+				18808B0026292A04008A23DD /* WebViewController.swift */,
+				18A2FDE7262BA8C100115392 /* ViewController.swift */,
 				18808B0226292A04008A23DD /* Main.storyboard */,
 				18808B0526292A04008A23DD /* Assets.xcassets */,
 				18808B0726292A04008A23DD /* LaunchScreen.storyboard */,
@@ -137,8 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18808B0126292A04008A23DD /* ViewController.swift in Sources */,
+				18808B0126292A04008A23DD /* WebViewController.swift in Sources */,
 				18808AFD26292A04008A23DD /* AppDelegate.swift in Sources */,
+				18A2FDE8262BA8C100115392 /* ViewController.swift in Sources */,
 				18808AFF26292A04008A23DD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

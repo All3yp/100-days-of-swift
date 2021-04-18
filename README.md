@@ -15,10 +15,7 @@
     <!-- Linha Projeto 1 -->
     <tr> 
       <td>
-          </br>
-          Project 1 
-          </br>
-          Storm Viewer (with challenges) 
+          <strong>Project 01 -Storm Viewer</strong>
           </br>
           ViewControllers, Storyboard, FileManager
           </br>
@@ -31,12 +28,9 @@
     <!-- Linha Projeto 2 -->
     <tr> 
       <td>
-        </br>
-        Project 2
-        </br>
-        Guess the Flag (with challenges) 
-        </br> 
-        UIButton, CALayer, IBAction.
+      <strong>Project 02 - Guess the Flag</strong>
+      </br>
+        UIButton, CALayer, IBAction
         </br>
       </td>
       <td>
@@ -47,12 +41,9 @@
     <!-- Linha Projeto 3 -->
     <tr>
       <td>
+        <strong>Project 03 - Social Media</strong>
         </br>
-        Project 3
-        </br>
-        Social Media (with challenges) 
-        </br>
-        UIBarButtonItem, UIActivityController.
+        UIBarButtonItem, UIActivityController
         </br>
       </td>
       <td>
@@ -60,17 +51,25 @@
         <img src="Project03/screenshots/print_P03.png" width="350px">
       </td>
     </tr>
+        <!-- Linha Projeto 4 -->
+    <tr>
+      <td>
+        <strong>Project 04 - Easy Browser </strong>
+        </br>
+         WKWebView, Action sheets, UIToolbar, UIProgressView, key-value observing
+        </br>
+      </td>
+      <td>
+        </br>
+        <img src="Project04/screenshots/print_P04.png" width="350px">
+      </td>
+    </tr>
     <!-- Linha Projeto 7 -->
     <tr>
       <td>
+      <strong>Project 07 -  Whitehouse Petitions </strong>
         </br>
-        Project 7
-        </br>
-        Whitehouse Petitions
-        </br>
-        UITabBarController, JSON Codable, 
-        </br>
-        Data and UISearchBarController.
+        UITabBarController, JSON Codable, Data and UISearchBarController
         </br>
       </td>
       <td>
