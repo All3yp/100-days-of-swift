@@ -1,15 +1,15 @@
-# Project 05 - Word Scramble
+# Project 06 - Auto Layout
 
-https://www.hackingwithswift.com/100/27
+https://www.hackingwithswift.com/100/30
 
-Includes solutions to the [challenges](https://www.hackingwithswift.com/read/5/7/wrap-up).
+Includes solutions to the [challenges](https://www.hackingwithswift.com/read/6/6/wrap-up).
 
-## Topics covered
 
-- Closures
-- Action Sheets
-- NSRange
-- Method return value
+## Topics learning
+
+- NSLayoutConstraint
+- Layout anchors
+- Visual Format Language
 
 ## Screenshots
 
@@ -25,10 +25,10 @@ Includes solutions to the [challenges](https://www.hackingwithswift.com/read/5/7
     </tr>
     <tr>
       <td style="width: 150px;">
-      Project 05 Word Scramble - Closures, method return values, booleans, NSRange
+        Project 06 - Auto Layout, Constraints, Visual Format Language
       </td>
       <td style="width: 250px; padding: 25px;">
-        <img src="screenshots/print_P05.png" width="350px">
+        <img src="screenshots/print_P06.png" width="350px">
       </td>
     </tr>
   </tbody>

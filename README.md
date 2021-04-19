@@ -77,6 +77,19 @@
         <img src="Project05/screenshots/print_P05.png" width="350px">
       </td>
     </tr>
+                <!-- Linha Projeto 6 -->
+    <tr>
+      <td>
+        <strong>Project 06 - Auto Layout </strong>
+        </br>
+         NSLayoutConstraint, Visual Format Language, layout anchors
+        </br>
+      </td>
+      <td>
+        </br>
+        <img src="Project06/screenshots/print_P06.png" width="350px">
+      </td>
+    </tr>
     <!-- Linha Projeto 7 -->
     <tr>
       <td>

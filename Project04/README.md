@@ -25,7 +25,7 @@ Includes solutions to the [challenges](https://www.hackingwithswift.com/read/4/6
     </tr>
     <tr>
       <td style="width: 150px;">
-        Project 4 - Easy Browser - WKWebView, URLRequest, UIToolbar, UIProgressView, key-value observing
+        Project 04 Easy Browser - WKWebView, URLRequest, UIToolbar, UIProgressView, key-value observing
       </td>
       <td style="width: 250px; padding: 25px;">
         <img src="screenshots/print_P04.png" width="350px">

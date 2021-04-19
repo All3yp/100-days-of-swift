@@ -24,7 +24,7 @@ Learning challenges 100 days of swift [here](https://www.hackingwithswift.com/10
     </tr>
     <tr>
       <td style="width: 150px;">
-        Project 1 - Storm Viewer (with challenges) ViewControllers, Storyboard, FileManager.
+        Project 01 Storm Viewer - ViewControllers, Storyboard, FileManager
       </td>
       <td style="width: 250px; padding: 25px;">
         <img src="screenshots/print_P01.png" width="350px">

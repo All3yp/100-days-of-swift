@@ -25,7 +25,7 @@ Includes solutions to the [challenges](https://www.hackingwithswift.com/read/2/6
     </tr>
     <tr>
       <td style="width: 150px;">
-        Project 2 - Guess the Flag (with challenges) UIButton, CALayer, IBAction.
+        Project 02 Guess the Flag - UIButton, CALayer, IBAction.
       </td>
       <td style="width: 250px; padding: 25px;">
         <img src="screenshots/print_P02.png" width="350px">

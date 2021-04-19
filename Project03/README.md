@@ -21,7 +21,7 @@ Learning challenges 100 days of swift [here](https://www.hackingwithswift.com/re
     </tr>
     <tr>
       <td style="width: 150px;">
-        Project 3 - Social Media (with challenges) (base: project 1) UIBarButtonItem, UIActivityController
+        Project 03 Social Media - UIBarButtonItem, UIActivityController
       </td>
       <td style="width: 250px; padding: 25px;">
         <img src="screenshots/print_P03.png" width="350px">

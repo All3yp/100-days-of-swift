@@ -28,7 +28,7 @@ Includes solutions to the [challenges](https://www.hackingwithswift.com/read/7/6
     </tr>
     <tr>
       <td style="width: 150px;">
-        Project 07 - Whitehouse Petitions (with challenges) UITabBarController, JSON Codable, Data and UISearchBarController
+        Project 07 Whitehouse Petitions - UITabBarController, JSON Codable, Data and UISearchBarController
       </td>
       <td style="width: 250px; padding: 25px;">
         <img src="screenshots/gif2_P07.gif" width="350px">
