@@ -64,6 +64,19 @@
         <img src="Project04/screenshots/print_P04.png" width="350px">
       </td>
     </tr>
+            <!-- Linha Projeto 5 -->
+    <tr>
+      <td>
+        <strong>Project 05 - Word Scramble </strong>
+        </br>
+         Closures, method return values, booleans, NSRange
+        </br>
+      </td>
+      <td>
+        </br>
+        <img src="Project05/screenshots/print_P05.png" width="350px">
+      </td>
+    </tr>
     <!-- Linha Projeto 7 -->
     <tr>
       <td>

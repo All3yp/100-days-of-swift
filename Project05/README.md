@@ -1,15 +1,15 @@
-# Project 04 - Easy Browser
+# Project 05 - Word Scramble
 
-https://www.hackingwithswift.com/100/24
+https://www.hackingwithswift.com/100/27
 
-Includes solutions to the [challenges](https://www.hackingwithswift.com/read/4/6/wrap-up).
+Includes solutions to the [challenges](https://www.hackingwithswift.com/read/5/7/wrap-up).
 
 ## Topics covered
 
-- WKWebView
+- Closures
 - Action Sheets
-- UIToolbar
-- UIProgressView
+- NSRange
+- Method return value
 
 ## Screenshots
 
@@ -25,10 +25,11 @@ Includes solutions to the [challenges](https://www.hackingwithswift.com/read/4/6
     </tr>
     <tr>
       <td style="width: 150px;">
-        Project 4 - Easy Browser - WKWebView, URLRequest, UIToolbar, UIProgressView, key-value observing
+      Project 5 - Word Scramble
+      Closures, method return values, booleans, NSRange
       </td>
       <td style="width: 250px; padding: 25px;">
-        <img src="screenshots/print_P04.png" width="350px">
+        <img src="screenshots/print_P05.png" width="350px">
       </td>
     </tr>
   </tbody>
