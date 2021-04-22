@@ -103,6 +103,19 @@
         <img src="Project07/screenshots/print_P07.png" width="350px">
       </td>
     </tr> 
+        <!-- Linha Projeto 8 -->
+    <tr>
+      <td>
+      <strong>Project 08 - Swifty Words </strong>
+        </br>
+        ViewCode, addTarget, enumerated, count, index(of:), joined, property observers, range operators
+        </br>
+      </td>
+      <td>
+        </br>
+        <img src="Project08/screenshots/print_P08.png" width="350px">
+      </td>
+    </tr> 
     <!-- Template Nova Linha -->
     <!-- 
     Instruções:

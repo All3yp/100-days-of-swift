@@ -1,15 +1,18 @@
-# Project 06 - Auto Layout
+# Project 08 - Swifty Words
 
-https://www.hackingwithswift.com/100/30
+https://www.hackingwithswift.com/100/36
 
-Includes solutions to the [challenges](https://www.hackingwithswift.com/read/6/6/wrap-up).
+Includes solutions to the [challenges](https://www.hackingwithswift.com/read/8/6/wrap-up).
 
 
 ## Topics learning
 
-- NSLayoutConstraint
-- Layout anchors
-- Visual Format Language
+- ViewCode
+- Text alignment
+- Layout Margins
+- UIFont
+
+### Refactored code
 
 ## Screenshots
 
@@ -25,10 +28,10 @@ Includes solutions to the [challenges](https://www.hackingwithswift.com/read/6/6
     </tr>
     <tr>
       <td style="width: 150px;">
-        Project 06 - Auto Layout, Constraints, Visual Format Language
+        Project 08 - AddTarget, enumerated, count, index(of:), joined, property observers, range operators
       </td>
       <td style="width: 250px; padding: 25px;">
-        <img src="screenshots/print_P06.png" width="350px">
+        <img src="screenshots/print_P08.png" width="350px">
       </td>
     </tr>
   </tbody>
